@@ -19,6 +19,7 @@ public class TriangleCalculatorServiceBean implements TriangleCalculatorService 
 
     @Override
     public TriangleType calculateTriangleType(String inputTriangleSide1, String inputTriangleSide2, String inputTriangleSide3){
+        System.out.println("inputTriangleSide2");
         validateTriangleSide(inputTriangleSide1);
         validateTriangleSide(inputTriangleSide2);
         validateTriangleSide(inputTriangleSide3);
